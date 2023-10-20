@@ -1,0 +1,22 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "client for sistema-chamado-max",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxForosteski/sistema-chamados-de-ti.git"
+  },
+  "keywords": [
+    "chamados"
+  ],
+  "author": "Max",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaxForosteski/sistema-chamados-de-ti/issues"
+  },
+  "homepage": "https://github.com/MaxForosteski/sistema-chamados-de-ti#readme"
+}
