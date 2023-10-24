@@ -1,6 +1,4 @@
-const path = require("path");
 const express = require("express");
-const fs = require("fs");
 
 const app = express();
 const server = require("http").Server(app);
@@ -8,7 +6,7 @@ const server = require("http").Server(app);
 
 app.get('/', (req,res)=>{
     console.log("teste");
-    res.sendFile(__dirname + '/public/client/src/index.html'); 
+    res.sendFile(__dirname + '/views/index.html'); 
 });
 
 app.use('/public',express.static(__dirname + '/public'));
