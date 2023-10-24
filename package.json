@@ -4,6 +4,7 @@
   "description": "client for sistema-chamado-max",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/MaxForosteski/sistema-chamados-de-ti/issues"
   },
-  "homepage": "https://github.com/MaxForosteski/sistema-chamados-de-ti#readme"
+  "homepage": "https://github.com/MaxForosteski/sistema-chamados-de-ti#readme",
+  "devDependencies": {
+    "express": "^4.18.2"
+  }
 }
