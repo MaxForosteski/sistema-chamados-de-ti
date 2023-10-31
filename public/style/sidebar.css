@@ -4,10 +4,20 @@
     padding: 4px 4px 4px 4px;
     overflow: hidden;
     min-width: 100px;
+    max-width: 180px;
+    text-align: center;
 }    
+.container-sidebar-title{
+    font-size: 150%;
 
+}
 .sidebar-content li{
     list-style: none;
+}
+
+ul{
+    margin:0px 0px 0px !important;
+    padding:0px 0px 0px 0px !important;
 }
 
 .container-sidebar-footer{
@@ -21,6 +31,7 @@
 .icon-sidebar{
     width:60%;
     min-width:30px;
+    max-width: 100px;
     height:100%;
     margin-top:10vh;
 }
