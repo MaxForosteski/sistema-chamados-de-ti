@@ -1,14 +1,14 @@
 .container-sidebar{
     background-image: linear-gradient(to bottom, rgb(0, 124, 196), rgba(0, 124, 196, 0.658));
     height:100vh;
-    width: calc(1px / 2);
+    width: 1px ;
     padding: 4px 4px 4px 4px;
     overflow: hidden;
     min-width: 60px;
     max-width: 180px;
     position: absolute;
     text-align: center;
-    transition: width 0.5s;
+    transition: width 1s;
 }    
 
 .container-sidebar p{
@@ -44,6 +44,18 @@ ul{
 .sidebar-footer{
     margin-top:65vh;
 }
+.container-sidebar-content{
+    border:solid 1px white;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgba(0, 124, 196, 0.658);
+    transition: background-color 0.5s,color 0.5s;
+}
+
+.container-sidebar-content:hover{
+    background-color: rgba(0, 72, 114, 0.815);
+    color:white;
+}
 
 .icon-sidebar{
     width:68%;
@@ -51,7 +63,7 @@ ul{
     max-width: 3px;
     height:100%;
     margin-top:1vh;    
-    border:solid 1px white;
+    
 }
 
 @media screen and (width:480px){
