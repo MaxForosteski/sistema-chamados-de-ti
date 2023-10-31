@@ -1,10 +1,11 @@
 .container-sidebar{
-    background-image: linear-gradient(to bottom, rgb(0, 124, 196), rgba(100,100,100,0.2));
+    background-image: linear-gradient(to bottom, rgb(0, 124, 196), rgba(0, 124, 196, 0.658));
     height:100vh;
     padding: 4px 4px 4px 4px;
     overflow: hidden;
     min-width: 100px;
     max-width: 180px;
+    position: absolute;
     text-align: center;
 }    
 .container-sidebar-title{
@@ -31,7 +32,7 @@ ul{
 .icon-sidebar{
     width:60%;
     min-width:30px;
-    max-width: 100px;
+    max-width: 3px;
     height:100%;
     margin-top:10vh;
 }
