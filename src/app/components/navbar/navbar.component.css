@@ -1,0 +1,7 @@
+.navbar{
+    background-image: linear-gradient(to right, rgb(0, 162, 255), rgba(0, 162, 255, 0.747));
+}
+
+.nav-item a{
+    color:rgb(236, 236, 236);
+}
