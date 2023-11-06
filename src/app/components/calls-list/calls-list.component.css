@@ -1,0 +1,24 @@
+.container-content{
+    background-image: linear-gradient(30deg, rgb(140, 213, 255), rgba(255, 255, 255, 0.541));
+    width: 100vw;
+    padding:10% 20% 20% 30%;
+    height: 100vh;
+}
+
+.empty-page p{
+    font-size:400%;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.empty-page img{
+    width: 16%;
+}
+
+@media only screen and (max-width =400px){
+    .container-content p{
+        font-size: calc(400% - 50%);
+    }
+}
+

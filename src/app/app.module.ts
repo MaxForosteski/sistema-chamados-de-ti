@@ -9,7 +9,8 @@ import { ReferencesComponent } from './components/references/references.componen
 import { BodyReferencesComponent } from './components/body-references/body-references.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { HomeComponent } from './components/home/home.component';
-
+import { CallsListComponent } from './components/calls-list/calls-list.component';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,11 +18,13 @@ import { HomeComponent } from './components/home/home.component';
     ReferencesComponent,
     BodyReferencesComponent,
     SidebarComponent,
-    HomeComponent
+    HomeComponent,
+    CallsListComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

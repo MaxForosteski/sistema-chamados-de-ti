@@ -1,0 +1,11 @@
+<div class="container-content">
+    <div *ngIf="canShow; else EmptyResponse" class="calls-list">
+        <p>teste</p>
+    </div>
+    <ng-template #EmptyResponse>
+        <div class="empty-page">
+            <p><img src="assets/images/comentario-info.png" alt="">Não há chamados no momento</p>
+        </div>
+    </ng-template>
+
+</div>
